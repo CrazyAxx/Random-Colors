@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  var x = random( 0 , windowHeight );
+  var x = random( 0 , windowWidth );
   var y = random( 0 , windowHeight );
   var d = random( 0 , 100 );
   var r = random( 0 , 255 );
