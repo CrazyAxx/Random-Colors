@@ -10,7 +10,8 @@ function draw() {
   var g = random( 0 , 255 );
   var b = random( 0 , 255 );
   var a = random( 0 , 100 )
-  fill( r , g , b , a );
+  noStroke()
+  fill( r , g , b , 75 );
   ellipse( x , y , d , d );
 }
 
