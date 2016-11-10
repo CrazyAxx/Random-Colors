@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+  frameRate( 5 )
   var x = random( 0 , windowWidth );
   var y = random( 0 , windowHeight );
   var d = random( 0 , 100 );
@@ -11,8 +12,8 @@ function draw() {
   var g = random( 0 , 255 );
   var b = random( 0 , 255 );
   var a = random( 20 , 75 )
-  noStroke()
-  fill( r , g , b , 75 );
+  noStroke();
+  fill( r , g , b , a );
   ellipse( x , y , d , d );
 }
 
