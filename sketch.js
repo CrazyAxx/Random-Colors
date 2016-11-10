@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  frameRate( 5 )
+  frameRate( 10 )
   var x = random( 0 , windowWidth );
   var y = random( 0 , windowHeight );
   var d = random( 0 , 100 );
